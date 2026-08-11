@@ -1,0 +1,18 @@
+{
+  "name": "boostertbot",
+  "version": "1.0.0",
+  "description": "Telegram bot for @boostertbot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
